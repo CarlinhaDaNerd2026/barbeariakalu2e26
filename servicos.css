@@ -70,3 +70,33 @@ h2 {
     font-weight: bold;
     margin-top: 10px;
 }
+nav a:hover{
+    color:goldenrod;
+    text-decoration: underline;
+}
+.servicos li:hover {
+    border-color: rgb(36, 35, 35);
+}
+.servicos li:active {
+    border-color: rgb(32, 218, 88);
+}
+nav a:active {
+    color: aqua;
+}
+.servicos li:hover h2 {
+    font-size: 34px;
+}
+footer {
+    text-align: center;
+    background-color: rgb(9, 17, 17);
+    padding:100px 0;
+}
+footer img {
+    width: 150px;
+}
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin: 20px 0 0;
+
+}
