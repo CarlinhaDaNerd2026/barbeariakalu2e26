@@ -1,36 +1,123 @@
-h1{
+header{
+background-color: rgb(0, 0, 0);
 color: rgb(0, 0, 0);
-font-size:100px;
-text-align: center;
-background-color:rgb(53, 33, 8);
+padding: 30px 0px;
 }
 
-h2{
-    color:blueviolet;
-    font-size:50px;
-    text-align:center;
+nav{
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    font-size: 30px;
 }
-body{
-    background-image: url(https://cdn.wallpapersafari.com/18/87/BTHld4.png);
-    color: rgb(0, 0, 0);
-    background-size: 2000px;
+
+nav li{ 
+display: inline; 
+margin: 0 0 0 15px;
+}/*estara  em formado de linha*/
+
+
+nav a{
+text-decoration: none;
 }
-img{
-    width:100px;
+
+.caixa{
+    position: relative;
+    width: 1480px;
+    margin: 0 auto;
+    height: 200px;
     
 }
-footer{
-    background-color: rgba(0, 0, 0, 0.288);
-    font-size: 25px;
-    color: white;
+h1{
+    font-size:50px;
 }
-.brawlstars{
-    background-color: beige;
+h1 img{
+    width:450px;
+    position: absolute;
+    top: -10px;
+    left: -180px;
+}
+h2 {
+    font-size:25px;
+}
+.servicos {
+    width: 1480px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.servicos li {
+    display: inline-block;
     text-align: center;
-    width: 300px;
-    margin:auto;
-    border-style: dotted;
-    border-color: rgb(226, 208, 43);
-    border-radius: 100px;
-    margin-bottom: 200px;
+    width: 33%;
+    vertical-align: top;
+    margin: 0;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+}
+.servicos img {
+    width: 400px;
+}
+.servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao {
+    font-size:20px;
+}
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav a:hover{
+    color:goldenrod;
+    text-decoration: underline;
+}
+.servicos li:hover {
+    border-color: rgb(36, 35, 35);
+}
+.servicos li:active {
+    border-color: rgb(32, 218, 88);
+}
+nav a:active {
+    color: aqua;
+}
+.servicos li:hover h2 {
+    font-size: 34px;
+}
+footer {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding:100px 0;
+}
+footer img {
+    width: 150px;
+}
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin: 20px 0 0;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+main {
+    width:1480px;
+    margin:0 auto;
+}
+form {
+    margin:40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin:0 0 10px;
+}
+form input{
+    display: block;
+    margin:0 0 20px;
+    padding: 5px 25px;
+    width:40%;
 }
