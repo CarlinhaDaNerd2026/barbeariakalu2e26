@@ -110,14 +110,33 @@ main {
 form {
     margin:40px 0;
 }
-form label{
+form label, form p{
     display: block;
     font-size: 20px;
     margin:0 0 10px;
 }
-form input{
+.imput-padrao{
     display: block;
     margin:0 0 20px;
     padding: 5px 25px;
     width:40%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: goldenrod;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.enviar:hover {
+    background-color: black;
+    transform:scale(1.2);
 }

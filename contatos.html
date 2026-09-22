@@ -16,8 +16,8 @@
             <nav><!-- menu de navegaçao-->
                 <ul><!--lista-->
                     <li>  <a href="index.html">INICIO</a></li> <!--linha da lista-->
-                    <li>  <a href="contatos.html">CONTATOS </a></li>
                     <li>  <a href="servicos.html">SERVIÇOS</a></li>
+                    <li>  <a href="contatos.html">CONTATOS </a></li>
                 </ul>
             </nav>
         </div>
@@ -35,8 +35,39 @@
 
         <label for="mensagem">Mensagem</label>
         <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
-        
-        <input type="submit" value="Enviar formulário">
+
+        <div>
+            <p>Como prefere o nosso contato?</p>
+            <label for="radio-email">
+                <input type="radio" name="contato" value="email" id="radio-email">
+                Email
+            </label>
+
+            <label for="radio-telefone">
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                Telefone
+            </label>
+
+            <label for="radio-whatsapp">
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                Whatsapp
+            </label> <br>
+        </div>
+        <div>
+            <p>Qual horário prefere ser atendido?</p> 
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </div>
+
+        <label class="checkbox"> 
+            Gostaria de receber nossas novidades por email?
+            <input type="checkbox">
+        </label>
+
+        <input type="submit" value="Enviar formulário" class="enviar"> 
     </form>
 </main>
         <footer>
