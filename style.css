@@ -222,6 +222,19 @@ form label, form p{
   opacity: 1;
   transform: rotate(-45deg) translateY(100%);
 }*/
-.bonnie {
-    width: 50px;
+.imagem p{
+color: aqua;
+}
+.mapa h2{
+font-size: 30px;
+color: goldenrod;
+}
+.mapa iframe{
+    box-sizing: border-box;
+    border: 5px solid goldenrod;
+    border-radius: 20px;
+    
+}
+.mapa p{
+    font-size: 20px;
 }
