@@ -222,19 +222,10 @@ form label, form p{
   opacity: 1;
   transform: rotate(-45deg) translateY(100%);
 }*/
-.imagem p{
-color: aqua;
+.bonnie {
+    width: 50px;
 }
-.mapa h2{
-font-size: 30px;
-color: goldenrod;
-}
-.mapa iframe{
-    box-sizing: border-box;
-    border: 5px solid goldenrod;
-    border-radius: 20px;
-    
-}
-.mapa p{
-    font-size: 20px;
+.imagem img{
+    width: 1000px;
+    margin-left: 17%;
 }
